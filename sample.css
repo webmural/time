@@ -1,5 +1,6 @@
 html {
-  font-size: calc(1ex + 8vmax);
+  font-family: monospace;
+  font-size: max(1em, 21vmax);
 }
 
 body {
@@ -16,6 +17,11 @@ main {
   min-height: 100vh;
 }
 
-math {
-  font-family: sans-serif;
+:focus {
+  outline-width: thick;
+  outline-style: dashed;
+}
+
+footer {
+  font-size: min(8vmax, 1rem);
 }
